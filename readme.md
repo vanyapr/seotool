@@ -15,3 +15,4 @@ Insert the script before the closing body tag. `<script src="seotool.min.js"></s
 
 Reload the page. **Seotool** will display errors at the bottom of the page.
 
+[Made in d3signer](https://d3signer.ru)
