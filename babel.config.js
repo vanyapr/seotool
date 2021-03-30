@@ -12,7 +12,9 @@ const presets = [
     // по умолчанию babel использует поллифиллы библиотеки core-js
     useBuiltIns: "entry"
   }],
-  ["minify"]
+  ["minify", {
+    "keepFnName": false
+  }],
 ];
 
 module.exports = { presets };
