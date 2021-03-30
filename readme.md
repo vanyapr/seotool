@@ -2,7 +2,7 @@
 
 _"Most mistakes are simply not noticed. Seotool will help you spot the stupidest mistakes."_
 
-**Seotool** is a small library for checking the search engine optimization of a page on the fly.
+**Seotool** is a small library for checking most popular search engine optimization mistakes on the fly.
 
 ## Usage
 

@@ -3,6 +3,7 @@ SEOTOOL 1.0
 Basic search engines optimisation checker
 (c) @vanyapr 27.04.16
  **/
+let x = 0;
 
 let seoResult = {
     errors: 0
@@ -133,7 +134,7 @@ function uiRender(disabled = false) {
     renderContainer.fontFamily = 'inherit';
 
     if (seoResult.errors && !disabled) {
-        renderContainer.innerHTML += seoResult.links_missing_title ? '<strong style="margin-left: 15px; background: red">No page title:</strong> ' + seoResult.links_missing_title : '';
+        renderContainer.innerHTML += seoResult.links_missing_title ? '<strong style="margin-left: 15px; background: red">No link title:</strong> ' + seoResult.links_missing_title : '';
         renderContainer.innerHTML += seoResult.links_empty_title ? '<strong style="margin-left: 15px; background: yellow">Empty link title:</strong> ' + seoResult.links_empty_title : '';
         renderContainer.innerHTML += seoResult.links_missing_alt ? '<strong style="margin-left: 15px; background: orange">No image alt:</strong> ' + seoResult.links_missing_alt : '';
         renderContainer.innerHTML += seoResult.links_empty_alt ? '<strong style="margin-left: 15px; background: greenyellow">Empty image alt:</strong> ' + seoResult.links_empty_alt : '';
